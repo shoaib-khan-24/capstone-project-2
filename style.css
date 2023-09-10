@@ -1,0 +1,136 @@
+body{
+    margin: 0%;
+}
+.upper{
+    text-align: center;
+    
+    color: rgb(86, 149, 150);
+    background-image:linear-gradient(rgb(168, 198, 227),rgb(255, 255, 255))
+}
+.upper>h1{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 80px;
+    margin-top: 0%;
+    text-transform: capitalize;
+    text-shadow: 2px 2px;
+}
+.headpic{
+    margin-top: 60px;
+}
+.upper>h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-shadow: 1px 1px;
+}
+.upper{
+    margin-bottom: 200px;
+}
+.mm{
+    background-color: rgb(221, 243, 243);
+    text-align: center;
+    padding: 100px 300px 100px 300px;
+    
+}
+
+.shoaib{
+    margin-top: 150px;
+    border-radius: 50%;
+    
+}
+.para-head{
+    color: rgb(54, 156, 156);
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.para{
+    color:rgb(107, 167, 167) ;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.skill-img{
+    float: left;
+    margin-right: 40px;
+    border-radius: 15px;
+    
+}
+.skillbox{
+    margin-top: 100px;
+}
+.sp{
+    text-align: start;
+}
+h3{
+    font-family:fantasy;
+    font-weight: 100;
+    text-align: start;
+    color:rgb(79, 147, 147)  ;
+}
+.contact{
+    margin-top: 200px;
+}
+.button{
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border:1px;
+    border-style: outset;
+    cursor: pointer;
+    background-image:linear-gradient(to bottom,rgb(18, 125, 144),rgb(197, 219, 222) );
+}
+.footer{
+    margin-top: 150px;
+}
+
+.flex{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+
+}
+footer{
+    text-align: center;
+    margin-top: 80px;
+}
+
+@media(max-width:800px) {
+    .headpic{
+        height: 350px;
+    }
+    .para-head{
+        font-size: 40px;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .mm{
+        padding: 50px 100px 50px 100px;
+    }
+    .shoaib{
+        height: 120px;
+    }
+    .skill-img{
+        height: 150px;
+        margin-bottom: 50px;
+    }
+    .button{
+        padding: 5px 10px 5px 10px;
+        font-size: 20px;
+    }
+    .flex{
+        gap: 100px;
+    }
+    footer{
+        text-align: end;
+    }
+
+}
+@media(min-width:1600px){
+    .mm{
+        padding: 150px 550px 150px 550px;
+    }
+}
+
+
