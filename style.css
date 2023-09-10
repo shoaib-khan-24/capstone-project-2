@@ -106,7 +106,7 @@ footer{
         font-size: 15px;
     }
     .mm{
-        padding: 40px 70px 50px 40px;
+        padding: 40px 70px 40px 70px;
     }
     .shoaib{
         height: 120px;
@@ -124,6 +124,7 @@ footer{
     }
     footer{
         text-align: end;
+        font-size: 15px;
     }
 
 }
